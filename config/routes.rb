@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-
+get("/", {:controller => "twilio", :action => "test"})
 
 
   # ======= Add Your Routes Above These =============
